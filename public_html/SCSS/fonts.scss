@@ -1,0 +1,33 @@
+$lightGray: #9b94a9;
+body{
+    background-color: white;
+}
+#userName{
+    font-size: medium;
+    color: green;
+}
+#loginForm{
+    font-family: monospace;
+    font-size: large;
+    color: $lightGray;
+}
+.windowContent{
+    font-family: monospace;
+    font-size: large;
+}
+.triggHidden{
+    color: $lightGray;
+}
+.triggShown{
+    color: $lightGray;    
+}
+#logotyp{
+    font-family: Georgia;
+    font-size: xx-large;
+    color: #5f20f0;
+    font-weight: 800;
+}
+.sideMenuEle{
+    font-weight: bold;
+    font-size: small;
+}

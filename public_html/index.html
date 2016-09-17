@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MAGAZYN</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="CSS/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="CSS/main.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="JS/jquery-3.0.0.min.js" type="text/javascript"></script>
+        <script src="JS/main.js" type="text/javascript"></script>
+        <script src="JS/windowsCreate.js" type="text/javascript"></script>
+        <script src="JS/sideMenu.js" type="text/javascript"></script>
+        <script src="JS/onLoad.js" type="text/javascript"></script>
+        <script src="JS/redirectLogin.js" type="text/javascript"></script>
+        <script src="JS/productHandling.js" type="text/javascript"></script>
+
+    </head>
+    <body>
+        <div id="userName"></div>
+        <img id="trigg" class="triggShown triggConstans" src="IMAGES/menu.png" alt=""/>
+        <div id="sideMenu" class="sideMenuHidden sideMenuConstants">
+            <div id="logotyp">MP</div>
+            <div id="products" class='sideMenuEle'><p>PRODUKTY</p></div>
+            <div id="addProduct" class='sideMenuEle'><p>DODAJ TOWAR</p></div>
+            <div id="addUser" class='sideMenuEle'><p>NOWY UŻYTKOWNIK</p></div>
+            <div id="editProduct" class='sideMenuEle'><p>EDYTUJ PRODUKT</p></div>
+            <div id="logout" class='sideMenuEle'><p>WYLOGUJ</p></div>
+        </div>
+        <div id="productsTab" class='productsTabHidden'>
+            <div id='prodTrigg' class='productsTrigg'>P<br>R<br>O<br>D<br>U<br>K<br>T<br>Y</div>
+            <div class='finderBar'>
+                Nazwa lub ID: <input type="text" id='nameOrId' class='finderEleName'>
+                     Ilość min: <input type="number" id='numberMin' class='finderEle'>
+                max: <input type="number" id='numberMax' class='finderEle'>
+                     Cena min: <input type="number" id='priceMin' class='finderEle'>
+                max: <input type="number" id='priceMax' class='finderEle'>
+                <button id='reset'>R</button>
+                <button id='search'>SZUKAJ</button>
+            </div>
+            <div id='productsContent' class='tableBG'></div>
+        </div>
+        <div id="floatingWindows" class="fwind"></div>
+    </body>
+</html>

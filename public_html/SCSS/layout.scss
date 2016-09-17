@@ -1,0 +1,285 @@
+$round: 8px;
+
+
+.sideMenuShown{
+    position : fixed;
+    left : 0px;
+    top : 0px;
+    width : 15%;
+    min-width: 150px;
+    height: 100%;
+    text-align: center;
+    transition-duration: 2s;
+    z-index: 3;
+}
+.sideMenuHidden{
+    position : fixed;
+    left : -50%;
+    top : 0px;
+    width : 15%;
+    height: 100%;
+    min-width: 150px;
+    max-width: 30%;
+    text-align: center;
+    align-items: center;
+    transition-duration: 2s;
+    z-index: 3;
+}
+.triggHidden{
+  position: fixed;
+  top: 10px;
+  left: -50px;
+  height: 30px;
+  width: 30px;
+  display: block;
+  background: transparent;
+  vertical-align: middle;
+  text-align: center;
+  transition-duration: 2s;
+  cursor: pointer;
+  border-radius: $round;
+}
+.triggShown{  
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  height: 30px;
+  background: transparent;
+  width: 30px;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  transition-duration: 2s;
+  border-radius: $round;
+  cursor: pointer;
+}
+#userName{
+    position : fixed;
+    right: 0px;
+    top:0px;
+}
+.sideMenuEle{
+    position: relative;
+    height : 3%;
+    width: 80%;
+    background: linear-gradient(#beb5d3, #9b94a9);
+    display: table;
+    border-radius: $round;
+    cursor: pointer;
+    margin: 3% auto;
+}
+#confirm{
+    display: inline-block;
+    width: 20%;
+    min-width: 70px;
+    position: relative;
+    background: linear-gradient(#beb5d3, #9b94a9);
+    border-radius: $round;
+    cursor: pointer;
+}
+.windowContent{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.formEle{
+    min-width: 150px;
+    width: 50%;
+    border-radius: $round;
+    padding-left: 5px;
+    display: inline-block;
+    position: relative; 
+    border: solid 1px black;
+}
+.finderEle{
+    min-width: 80px;
+    width: 7%;
+    border-radius: $round;
+    padding-left: 5px;
+    max-width: 200px;
+    display: inline-block;
+    position: relative; 
+    border: solid 1px black;
+}
+.finderEleName{
+    min-width: 80px;
+    width: 15%;
+    border-radius: $round;
+    padding-left: 5px;
+    max-width: 200px;
+    display: inline-block;
+    position: relative; 
+    border: solid 1px black;
+}
+.sortButt{
+    border-radius: 2px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+#loginForm{
+    position: relative;
+    min-width: 150px;
+    width:80%;
+    max-width: 500px;
+    max-height: 400px;
+    height: 40%;
+    border-radius: $round;
+    top:100px;
+    text-align: center;
+    background: linear-gradient(black, grey);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+.windowContent{
+    position: relative;
+    width:80%;
+    height: 40%;
+    border-radius: $round;
+    text-align: center;
+    background-color: #d9d1ea;
+    margin: 0 auto;
+}
+.added {
+  position: fixed;
+  left: 50px;
+  top: 100px;
+  border-radius: $round;
+  background-color: #d9d1ea;
+  height: 400px;
+  width: 500px;
+  z-index: 55; 
+}
+
+.titleBar {
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 470px;
+  color : #d9d1ea;
+  height: 30px;
+  background: linear-gradient(black, grey);
+  cursor: pointer;
+  display: inline-block;
+  border-top-left-radius: $round;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; 
+}
+
+.closeButton {
+  position: absolute;
+  background-color: red;
+  height: 30px;
+  width: 30px;
+  right: 0px; 
+  border-top-right-radius: $round;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer; 
+}
+.fwind {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1; 
+}
+.button{
+    display: inline-block;
+    width: 20%;
+    min-width: 70px;
+    position: relative;
+    background: linear-gradient(#beb5d3, #9b94a9);
+    border-radius: $round;
+    cursor: pointer;
+}
+.productsTabHidden{
+    position: fixed;
+    top: 10%;
+    right: -81%;
+    width: 85%;
+    height: 80%;
+    border-top-left-radius: $round;
+    border-bottom-left-radius: $round;
+    background-color: #d9d1ea;
+    transition-duration: 2s;
+    z-index: 60;
+}
+.productsTabShown{
+    position: fixed;
+    top: 10%;
+    right: 0%;
+    width: 85%;
+    height: 80%;
+    text-align: center;
+    border-top-left-radius: $round;
+    border-bottom-left-radius: $round;
+    background-color: #d9d1ea;    
+    transition-duration: 2s;
+    z-index: 60;
+}
+.productsTrigg{
+    position : relative;
+    left : 0px;
+    top : 0px;
+    border-top-left-radius: $round;
+    border-bottom-left-radius: $round;  
+    text-align: center;
+    width: 5%;
+    height: 100%;
+    background-color: #9b94a9;
+    z-index: 61;
+    cursor: pointer;
+}
+.tableBG{
+    position: absolute;
+    background-color: #d9d1ea;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    width: 95%;
+    height: 95%;
+    top: 5%;
+    left: 5%;
+}
+.productTab{
+    border: solid 2px gray;
+    border-collapse:collapse;
+    width: 100%;
+    max-height: 100%;
+}
+.productTab td{
+    border: solid 2px gray;
+    text-align: center;
+}
+.finderBar{
+    position: absolute;
+    background-color: #9b94a9;
+    top: 0;
+    left: 5%;
+    height: 5%;
+    width: 95%;
+    text-align: left;
+}
+.highlighted{
+    background-color: #cccccc;
+}
+.normal{
+    background-color: white;
+}
+#search{
+    border-radius: $round;
+    color: black;
+    width: 90px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#reset{
+    border-radius: $round;
+    color: red;
+    width: 10px;
+    margin-left: 7px;
+    cursor: pointer;
+}
