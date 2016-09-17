@@ -48,7 +48,7 @@ body {
   min-width: 150px;
   height: 100%;
   text-align: center;
-  transition-duration: 2s;
+  transition-duration: .5s;
   z-index: 3; }
 
 .sideMenuHidden {
@@ -64,7 +64,7 @@ body {
   -ms-flex-align: center;
   -ms-grid-row-align: center;
   align-items: center;
-  transition-duration: 2s;
+  transition-duration: .5s;
   z-index: 3; }
 
 .triggHidden {
@@ -77,7 +77,7 @@ body {
   background: transparent;
   vertical-align: middle;
   text-align: center;
-  transition-duration: 2s;
+  transition-duration: .5s;
   cursor: pointer;
   border-radius: 8px; }
 
@@ -91,7 +91,7 @@ body {
   display: block;
   vertical-align: middle;
   text-align: center;
-  transition-duration: 2s;
+  transition-duration: .5s;
   border-radius: 8px;
   cursor: pointer; }
 
@@ -245,7 +245,7 @@ body {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   background-color: #d9d1ea;
-  transition-duration: 2s;
+  transition-duration: .5s;
   z-index: 60; }
 
 .productsTabShown {
@@ -258,7 +258,7 @@ body {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   background-color: #d9d1ea;
-  transition-duration: 2s;
+  transition-duration: .5s;
   z-index: 60; }
 
 .productsTrigg {
