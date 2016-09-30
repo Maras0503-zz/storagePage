@@ -3,7 +3,7 @@ additionalFunctions.redirect = (function(){
         $('#confirm').on('click', function(){
             getData($('#login').val());
             if(window.sessionStorage.getItem('userPass') == $('#pass').val()){
-                var time = Math.floor(new Date().getTime() / 1000);
+                var time = new Date();
                 if(window.localStorage.getItem('passTimeExp') > time){
                     window.sessionStorage.setItem('userPass', 'password correct');
                     window.location.replace("../index.html");                    

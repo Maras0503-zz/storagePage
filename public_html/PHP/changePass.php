@@ -1,7 +1,7 @@
 <?php
     $newPass = $_POST['newPass'];
     $userId = $_POST['userId'];
-    $exp = time() + (30*24*60*60);
+    $exp = (time() + (30*24*60*60))*1000;
 
 
 

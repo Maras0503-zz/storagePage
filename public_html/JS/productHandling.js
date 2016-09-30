@@ -88,6 +88,7 @@ var getProductsAns = function(data){
         counter++;
     });
     ans += "</tbody></table>";
+    
     return ans;
 };
 var searchParameters = function(){
