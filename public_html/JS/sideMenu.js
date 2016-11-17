@@ -31,7 +31,7 @@ additionalFunctions.sideMenu = (function(){
     };
     var init = function(){
         listeners();
-      //  whatsClicked();
+        //whatsClicked();
     };
     $(document).ready(function(){
         init(); 
